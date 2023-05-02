@@ -6,14 +6,9 @@ In order for this to function, you need to download the latest releases of the f
 1. [ffmpeg Essentials](https://www.gyan.dev/ffmpeg/builds/) 
 2. [Gifski CLI binaries](https://gif.ski/)
 
-Extract the downloaded archives and place the binaries inside the bin folder. Your file structure should mirror:
-* animation-size-reducer
-  * bin
-    * ffmpeg.exe
-    * ffprobe.exe
-    * gifski.exe
-  * input
-  * output
-  * convert.bat
+Extract the downloaded archives and place the binaries inside the bin folder. You only need:
+* ffmpeg.exe
+* ffprobe.exe
+* gifski.exe
 
 Once you have everything in the right place, just drop some .gif files into the 'input' folder, run 'converter.bat', and wait for it to complete.
